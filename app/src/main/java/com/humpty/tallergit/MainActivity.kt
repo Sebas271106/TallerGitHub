@@ -134,6 +134,38 @@ fun presentacion() {
             color = Color.Gray,
             modifier = Modifier.padding(25.dp,25.dp,25.dp,15.dp)
         )
+        Text(
+            text = "SOBRE MI MATERIA FAVORITA",
+            fontSize = 20.sp,
+            color = Color.Gray,
+            fontWeight = FontWeight.Bold,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(top = 20.dp)
+        )
+        Text(
+            text = "Lorem Ipsum es simplemente el texto de relleno de las imprentas y archivos de texto. Lorem Ipsum ha sido el texto de relleno estándar de las industrias desde el año 1500, cuando un impresor (N. del T. persona que se dedica a la imprenta) desconocido usó una galería de textos. ",
+            fontSize = 20.sp,
+            textAlign = TextAlign.Center,
+            modifier = Modifier
+                .fillMaxWidth()
+                .padding(25.dp, bottom = 10.dp)
+        )
+        // Botón abajo
+        Button(
+            onClick = {},
+            modifier = Modifier
+                .fillMaxWidth()
+                .height(60.dp),
+            shape = RoundedCornerShape(30.dp),
+            colors = ButtonDefaults.buttonColors(
+            containerColor = Blue,   // Color del botón
+            contentColor = Color.White           // Color del texto
+        )
+        ) {
+            Text("Contactar conmigo", fontSize = 22.sp)
+        }
     }
 }
 
