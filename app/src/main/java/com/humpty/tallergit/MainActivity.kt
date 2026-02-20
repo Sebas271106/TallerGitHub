@@ -74,7 +74,66 @@ fun presentacion() {
                     .clip(CircleShape)
                     .border(3.dp, Color(0xFF2F80ED), CircleShape)
             )
+
+            Text(
+                text = "Sebastián Suárez",
+                fontSize = 28.sp,
+                color = Color.Black,
+                textAlign = TextAlign.Center,
+                modifier = Modifier.padding(top = 20.dp)
+            )
+
+            Text(
+                text = "Desarrollador Móvil Jr.",
+                fontSize = 16.sp,
+                color = Color(0xFF2F80ED)
+            )
         }
+
+        HorizontalDivider(
+            thickness = 1.dp,
+            color = Color.Gray,
+            modifier = Modifier.padding(5.dp,20.dp)
+        )
+
+        Text(
+            text = "Edad",
+            fontSize = 22.sp,
+            color = Color.Gray
+        )
+        Text(
+            text = "20 años",
+            fontSize = 18.sp,
+            color = Color.Black
+        )
+        Text(
+            text = "Correo",
+            fontSize = 22.sp,
+            color = Color.Gray,
+            modifier = Modifier.padding(top = 10.dp)
+        )
+        Text(
+            text = "[jsuarez219@unab.edu.co]",
+            color = Color.Blue,
+            fontSize = 18.sp,
+        )
+        Text(
+            text = "Ciudad",
+            fontSize = 22.sp,
+            color = Color.Gray,
+            modifier = Modifier.padding(top = 10.dp)
+        )
+        Text(
+            text = "Bucaramanga, Colombia",
+            fontSize = 18.sp,
+            color = Color.Black
+        )
+
+        HorizontalDivider(
+            thickness = 1.dp,
+            color = Color.Gray,
+            modifier = Modifier.padding(25.dp,25.dp,25.dp,15.dp)
+        )
     }
 }
 
