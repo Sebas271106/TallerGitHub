@@ -152,6 +152,12 @@ fun presentacion() {
                 .fillMaxWidth()
                 .padding(25.dp, bottom = 10.dp)
         )
+
+        Text(
+            text = "CONTÁCTAME",
+            fontSize = 20.sp,
+            color = Color.Gray
+        )
         // Botón abajo
         Button(
             onClick = {},
