@@ -128,6 +128,11 @@ fun presentacion() {
             fontSize = 18.sp,
             color = Color.Black
         )
+        Text(
+            text = "Celular",
+            fontSize = 22.sp,
+            color = Color.Gray,
+        )
 
         HorizontalDivider(
             thickness = 1.dp,
