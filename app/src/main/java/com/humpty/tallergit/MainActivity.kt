@@ -163,6 +163,9 @@ fun presentacion() {
             fontSize = 20.sp,
             color = Color.Gray
         )
+        Text(
+            text = "Hola"
+        )
         // Botón abajo
         Button(
             onClick = {},
